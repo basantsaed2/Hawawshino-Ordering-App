@@ -144,7 +144,7 @@ const SignUpPage = () => {
        return (
               <>
                      <form onSubmit={handleSignUp} className="w-full flex items-center justify-center mx-auto h-screen overflow-hidden">
-                            <div className="sm:w-full flex flex-col items-start justify-start gap-y-3 h-full">
+                            <div className="sm:w-full flex flex-col items-start justify-start gap-y-4 md:gap-y-8 h-full">
                                    {loadingSignUp || loadingEmail || loadingPhone ?
                                           (
                                                  <>
